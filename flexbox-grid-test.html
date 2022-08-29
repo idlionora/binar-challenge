@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox and Grid Test</title>
+    <link rel="stylesheet" href="app/css/flexbox-grid-test.css" /> 
+</head>
+<body>
+    <h1>Flexbox and Grid Test</h1>
+    <!--FLEXBOX-->
+    <h2>1. flex-flow: column wrap</h2>
+    <div class="kotak flex-row">
+            <div class="flex-orange flex-margin"></div>
+        <div class="flex-column column2">
+            <div class="flex-blue1 flex-margin"></div>
+            <div class="flex-column flex-cont">
+                <div class="flex-turquoise flex-margin"></div>
+                <div class="flex-yellow flex-margin"></div>
+                <div class="flex-magenta flex-margin"></div>
+            </div>
+            <div class="flex-blue2 flex-margin"></div>
+        </div>
+        <div class="flex-column column3">
+            <div class="flex-darkcyan flex-margin"></div>
+            <div class="flex-darkcyan flex-margin"></div>
+            <div class="flex-darkcyan flex-margin"></div>
+        </div>
+    </div>
+    <!--BLOCK-FLEXBOX-->
+    <h2>2. flex-flow: row no-wrap</h2>
+    <div class="kotak block-flex">
+        <div class="div-1-margin">
+            <div class="block-orange"></div>
+        </div>
+        <div class="div-2">
+            <div class="div2-block1-margin">
+                <div class="block-blue"></div>
+            </div>
+            <div class="div2-flex">
+                <div class="block-turquoise-margin">
+                    <div class="block-turquoise"></div>
+                </div>
+                <div class="div2-flex-block">
+                    <div class="block-yellow-margin">
+                        <div class="block-yellow"></div>
+                    </div>
+                    <div class="block-magenta-margin">
+                        <div class="block-magenta"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="div2-block2-margin">
+                <div class="block-blue"></div>
+            </div>
+        </div>
+        <div class="div-1">
+            <div class="block-darkcyan-margin">
+                <div class="block-darkcyan"></div>
+            </div>
+            <div class="block-darkcyan-margin">
+                <div class="block-darkcyan"></div>
+            </div>
+            <div class="block-darkcyan-margin">
+                <div class="block-darkcyan"></div>
+            </div>
+        </div>
+    </div>    
+    <!--GRID-->
+    <h2>display: grid</h2>
+    <div class="kotak grid-margin">
+        <div class="grid-main">
+            <div class="area-orange"></div>
+            <div class="area-blue1"></div>
+            <div class="area-darkcyan grid-tab">
+                <div class="area-darkcyan-tab1"></div>
+                <div class="area-darkcyan-tab2"></div>
+                <div class="area-darkcyan-tab3"></div>
+            </div>
+            <div class="area-turquoise"></div>
+            <div class="area-yellow"></div>
+            <div class="area-magenta"></div>
+            <div class="area-blue2"></div>
+        </div>
+    </div>
+</body>
+</html>
